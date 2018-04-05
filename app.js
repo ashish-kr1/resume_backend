@@ -10,7 +10,7 @@ const port = process.env.PORT || 3000;
 
 const route = require('./routes/route');
 
-mongoose.connect('mongodb://localhost:27017/resumeDeveloper');//connect to mongodb
+mongoose.connect('mongodb://ashish:ashish1996@ds235239.mlab.com:35239/resume-test');//connect to mongodb
 mongoose.connection.on('connected',()=>{
     console.log('connected to database mongodb 27017');
 });
